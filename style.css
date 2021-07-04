@@ -1,0 +1,903 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background: white;
+    padding: 30px;
+}
+
+.logo {
+}
+
+.logo img {
+}
+
+.h_icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.h_icon i {
+    font-size: 30px;
+    color: rgb(246, 145, 101);
+}
+
+.h_icon ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px 0px 15px;
+}
+
+.h_icon ul li {
+}
+
+.u_text {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.l_text {
+    font-size: 14px;
+    color: rgb(176, 176, 176);
+    font-weight: normal;
+}
+
+.navigation {
+    background-color: rgb(2, 204, 224);
+    position: relative;
+}
+.appoint{
+    margin: 0px !important;
+}
+.appointment{
+
+background: #f69165;
+
+height: 60px;
+
+width: 200px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+transform: skew(-20deg);
+
+cursor: pointer;
+}
+.appointment ul{
+
+margin: 0;
+
+padding: 0;
+
+list-style-type: none;
+
+display: flex;
+}
+.appointment ul li{
+    
+color: white;
+    
+margin-right: 10px;
+    
+font-size: 18px;
+}
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(246, 145, 101);
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.banner {
+    background-image: url("images/banner.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+}
+
+.photo img {
+    width: 95%;
+}
+
+.banner_text {
+}
+
+.banner_text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(2, 204, 224);
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+
+.banner_text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(246, 145, 101);
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+
+.banner_text p {
+}
+
+.banner_text p {
+    font-size: 16px;
+    color: rgb(176, 176, 176);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.btn_one {
+    background: rgb(246, 145, 101);
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.btn_one:hover {
+    background: rgb(2, 204, 224);
+    color: white;
+}
+
+.btn_two {
+    background: rgb(2, 204, 224);
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.btn_two:hover {
+    background: rgb(246, 145, 101);
+    color: white;
+}
+
+.owl-dot.active span {
+    height: 12px;
+    width: 12px;
+    display: block;
+    background: rgb(246, 145, 101);
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.owl-dot span {
+    height: 12px;
+    width: 12px;
+    display: block;
+    background: rgb(233, 233, 233);
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.agency {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.ageny_text {
+}
+
+.ageny_text h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: rgb(246, 145, 101);
+}
+
+.ageny_text p {
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+}
+
+.tooth_text {
+    margin-top: 30px;
+    padding: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.tooth_text:hover {
+    box-shadow: rgb(246, 145, 101) 5px 5px 5px;
+    transform: translateY(-5px);
+}
+
+.tooth_text i {
+    font-size: 40px;
+    color: rgb(246, 145, 101);
+    margin-bottom: 15px;
+}
+
+.tooth_text h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(113, 113, 113);
+}
+
+.tooth_text p {
+    margin: 0px;
+}
+
+.doctors_image {
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+}
+
+.doctors_image img {
+    width: 90%;
+}
+
+.doctors {
+    padding: 100px 0px;
+    background-color: rgb(249, 249, 249);
+}
+
+.h_title {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.h_title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0px;
+    color: rgb(68, 68, 68);
+}
+
+.title_icon {
+    margin-top: 15px;
+}
+
+.title_icon img {
+}
+
+.h_title p {
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.doctors_cell {
+    background: white;
+    box-shadow: rgb(216, 216, 216) 5px 5px 10px;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 5px solid rgb(2, 204, 224);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.doctors_cell:hover {
+    border-bottom: 5px solid rgb(246, 145, 101);
+    transform: translateY(-10px);
+}
+
+.doctors_cell img {
+    width: 100%;
+}
+
+.doctorsimage {
+    position: relative;
+}
+
+.doctors_cell:hover .doctors_icon {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.doctors_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.doctors_icon ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.doctors_icon ul li {
+    margin: 0px 5px;
+}
+
+.doctors_icon ul li i {
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    line-height: 40px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.doctors_icon ul li i:hover {
+    color: white;
+    background-color: rgb(246, 145, 101);
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.doctorsimage::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.doctors_cell:hover .doctorsimage::before {
+    height: 100%;
+}
+
+.doctors_cell h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 25px 0px 0px;
+    color: rgb(64, 64, 64);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.doctors_cell:hover h4 {
+    color: rgb(246, 145, 101);
+}
+
+.doctors_cell h6 {
+    font-size: 16px;
+    color: rgb(125, 125, 125);
+    padding-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.service {
+    padding: 100px 0px;
+}
+
+.service_text {
+    border: 5px solid rgb(249, 249, 249);
+    padding: 20px;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.service_text ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+.service_text ul li {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.service_text ul li i {
+    font-size: 40px;
+    color: rgb(246, 145, 101);
+    margin-right: 20px;
+}
+
+.service_text p {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(158, 158, 158);
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}
+
+.service_text h6 {
+    font-size: 14px;
+    color: rgb(132, 132, 132);
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.service_text:hover h6 {
+    color: rgb(246, 145, 101);
+    cursor: pointer;
+}
+
+.service_text:hover {
+    border-color: rgb(246, 145, 101);
+}
+
+.service_text:hover li {
+    color: rgb(246, 145, 101);
+}
+
+.pricing {
+    padding: 100px 0px;
+    background: rgb(249, 249, 249);
+}
+
+.price_table {
+    text-align: center;
+    border: 5px solid white;
+    transition: all 0.5s ease-in-out 0s;
+    margin-top: 20px;
+}
+
+.price_table:hover {
+    border: 5px solid rgb(246, 145, 101);
+    transform: translateY(-10px);
+}
+
+.price_title {
+    padding: 20px;
+    background: rgb(249, 249, 249);
+}
+
+.price_title h1 {
+    color: rgb(2, 204, 224);
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.price_table:hover .price_title h1 {
+    color: rgb(246, 145, 101);
+}
+
+.price_table:hover .price_title h6 {
+    color: rgb(246, 145, 101);
+}
+
+.price_table:hover .price h1 {
+    color: white;
+}
+
+.price_table:hover .price h6 {
+    color: white;
+}
+
+.price_table:hover .price {
+    background: rgb(246, 145, 101);
+}
+
+.price_title h6 {
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    font-weight: normal;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.price {
+    padding: 20px 0px;
+    background: white;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.price h1 {
+    margin: 0px;
+    font-size: 45px;
+    color: rgb(0, 204, 225);
+    font-weight: bold;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.price h6 {
+    margin: 0px;
+    color: rgb(0, 204, 225);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.price_features {
+    padding: 20px 0px 40px;
+    background: rgb(249, 249, 249);
+}
+
+.price_features ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.price_features ul li {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: rgb(112, 112, 134);
+    margin: 10px 0px;
+}
+
+.sign_up {
+    background: rgb(0, 204, 225);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0px;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.price_table:hover .sign_up {
+    background-color: rgb(246, 145, 101);
+    color: white;
+}
+
+.clients {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/company-banner.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.clients_logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.clients_logo img {
+}
+
+.logoimg {
+}
+
+.logoimg img {
+}
+
+.com-ttle h1 {
+    color: white;
+}
+
+.com-ttle p {
+    color: white;
+}
+
+.owl-carousel-two .owl-dots {
+    display: none;
+}
+
+.owl-carousel-two .owl-item img {
+    display: block;
+    width: 40%;
+}
+
+.owl-carousel-two {
+    position: relative;
+}
+
+.owl-carousel-two .owl-nav .owl-prev span {
+    position: absolute;
+    background: rgb(0, 204, 225);
+    top: 50%;
+    left: -2%;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 25px;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.owl-carousel-two .owl-nav .owl-prev span:hover {
+    background: rgb(246, 145, 101);
+    opacity: 1;
+}
+
+.owl-carousel-two .owl-nav .owl-next span {
+    position: absolute;
+    background: rgb(0, 204, 225);
+    top: 50%;
+    right: -2%;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 25px;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.owl-carousel-two .owl-nav .owl-next span:hover {
+    background: rgb(246, 145, 101);
+    opacity: 1;
+}
+
+.owl-carousel-two .owl-stage {
+    position: relative;
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    padding: 50px 0px;
+    background: rgb(10 10 10);
+}
+
+.footer_logo {
+    padding: 0px 10px;
+}
+
+.footer_logo img {
+    filter: brightness(5);
+}
+
+.footer_logo p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(180, 180, 180);
+    margin: 25px 0px;
+}
+
+.f_icon {
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.f_icon i {
+    color: rgb(0, 204, 225);
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.f_icon ul {
+    padding: 0px;
+}
+
+.f_icon ul li {
+    color: rgb(180, 180, 180);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.recent_post {
+    padding: 0px 10px;
+}
+
+.recent_post h1 {
+    color: white;
+}
+
+.post {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+.post img {
+}
+
+.post ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+.post ul li {
+}
+
+.ru_text {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+}
+
+.rl_text {
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    margin: 5px 0px 0px;
+    padding: 0px;
+}
+
+.newsletter {
+}
+
+.newsletter h1 {
+    color: white;
+}
+
+.newsletter p {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.form {
+    position: relative;
+}
+
+.form input {
+}
+
+.emailform {
+    border: 0.5px solid rgb(68, 68, 68);
+    background: transparent;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.emailform:focus {
+    border-color: rgb(68, 68, 68);
+    box-shadow: none;
+    outline: none;
+    color: rgb(243, 143, 100);
+}
+
+.signup {
+    padding: 9px 20px;
+    color: white;
+    background: rgb(243, 143, 100);
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.signup:hover {
+    background: rgb(0, 204, 225);
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.follow h3 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.follow ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.follow ul li {
+}
+
+.footer_icon {
+}
+
+.footer_icon ul {
+}
+
+.footer_icon ul li {
+}
+
+.footer_icon ul li i {
+    height: 40px;
+    width: 40px;
+    background: rgb(45, 45, 45);
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.footer_icon ul li i:hover {
+
+    background-color: rgb(243, 143, 100);
+    cursor: pointer;
+
+}
+.footer{
+    
+background: #000000;
+    
+padding: 20px 0;
+    
+text-align: center;
+    
+border-top: .1px solid;
+}
+.footer p{
+
+margin: 0;
+
+color: rgb(180, 180, 180);
+}
+.footer p span{
+
+font-size: 18px;
+
+color: #00cce1;
+
+cursor: pointer;
+}
